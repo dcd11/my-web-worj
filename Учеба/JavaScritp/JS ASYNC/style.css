@@ -1,0 +1,21 @@
+.countries {
+    max-width:  1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.countries .country {
+    max-width: 300px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.countries .country span {
+    color: rgba(138, 0, 0, 0.699)
+}
+
+.countries .country .images img{
+    width: 100%;
+}

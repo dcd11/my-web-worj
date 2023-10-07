@@ -1,0 +1,15 @@
+.cats{
+    max-width: 1200px;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.cats .cat img{
+    width: 100%;
+    
+}

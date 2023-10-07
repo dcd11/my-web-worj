@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Анкета сотрудника</h2>
+    <div>
+        <form action="form.php">
+            <div>
+                <label for="fname">Имя</label>
+                <input type="text" id="fname" name="fname" size="35" placeholder="Иван" autofocus required>
+            </div>
+            <div>
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" name="surname" size="30" placeholder="Иванов" required>
+            </div>
+            <div>
+                <label for="tel">Телефон</label>
+                <input type="tel" id="tel" name="tel" size="30" placeholder="8-999-999-99-99" required>
+            </div>
+            <div>
+                <label for="email">Электронная почта</label>
+                <input type="email" id="email" name="email" placeholder="mail@mail.ru" required>
+            </div>
+            <div>
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" size="32" placeholder="password" required>
+            </div>
+            <div>
+                <label for="proffesion">Ваша должность</label>
+                <input list="proffesion" id="iproffesion" name="proffesion" />
+
+                    <datalist id="proffesion">
+                        <option value="Водитель"></option>
+                        <option value="Менеджер"></option>
+                        <option value="Грузчик"></option>
+                        <option value="Секретарь"></option>
+                        <option value="Воробушек"></option>
+                    </datalist>
+            </div>
+            <div>
+                <label for="message">Сообщение</label><br>
+                <textarea name="message" id="message" cols="32" rows="3" placeholder="Предложения и замечания"></textarea>
+            </div>
+            <div>
+                <label for="forward">Прислать ответ: <br> на почту</label>
+                <input type="checkbox"><br>
+                По телефону<input type="checkbox">
+            </div>
+            <input type="hidden" name="category-user" value="worker">
+            <div>
+                <input type="reset" value="Очистить">
+                <input type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

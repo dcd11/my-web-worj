@@ -1,0 +1,33 @@
+.authors {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.authors .author, .books .book {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: cornsilk;
+}
+
+.books {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.books .book .book-info {
+    background-color: azure;
+    margin-bottom: 30px;
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+.user .student {
+    background-color: aliceblue;
+    max-width: 1200px;
+}
+
+img {
+    width: 100%;
+}
+
+section.users {
+    max-width: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+section.users .user {
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 16px ;
+}
