@@ -1,0 +1,47 @@
+.head {
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.users {
+    display: flex;
+    gap: 20px;
+}
+
+.users .user {
+    padding: 15px;
+    background-color: aliceblue;
+    width: 300px;
+}
+
+.users .user img {
+    width: 100%;
+}
+
+
+form {
+ margin: 40px;
+ padding: 20px;
+ background-color: antiquewhite;
+
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+.input-error {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.test {
+    background-color: aqua;
+}
+
+.users .user.active {
+    background-color: red;
+}
