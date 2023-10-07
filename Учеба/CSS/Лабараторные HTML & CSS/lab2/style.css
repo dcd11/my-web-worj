@@ -1,0 +1,54 @@
+body{
+    background:white;
+}
+header{
+    background: gray;
+}
+nav{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+ul{
+    padding-left: 400px;
+    font-size: 30px;    
+}
+li{
+    font-size: 20px;     
+}
+.h2{
+    padding-left: 260px;
+    font-size: 20px;
+    font: bold;
+}
+.news{
+    padding-left: 260px;
+    font-size: 16px;
+}
+.header{
+    display: block;
+    width: 800px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nav{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+.main{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
