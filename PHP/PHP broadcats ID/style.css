@@ -1,0 +1,46 @@
+.cars {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgba(180, 194, 164, 0.76);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.cars .car {
+    padding: 20px;
+    background-color: rgba(232, 195, 153, 0.53);
+    border-radius: 30px;
+}
+.cars .car.car-4{
+    background-color: #BDBDBD;
+}
+.cars  .car img {
+    width: 100%;
+}
+.car-item {
+    max-width: 1200px;
+    background-color: rgb(82, 68, 68);
+    margin: 0 auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.car-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.car-item .car-info {
+    background-color: rgba(155, 197, 179, 0.46);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.car-item .car-info p span {
+    color: #7e1e18;
+    font-weight: bold;
+}
